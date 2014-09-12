@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  
+  	<ImageView android:id="@+id/thumbNail" 
+  		android:layout_width="100px"
+		android:layout_height="100px"
+		android:layout_marginRight="10px"
+		android:layout_marginLeft="10px"
+	  	android:layout_marginTop="30px"
+	  	android:layout_marginBottom="30px">
+	</ImageView>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+  
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/mixName"
+			android:textStyle="bold"
+			android:textSize="24px"
+			android:text="Mix Name">
+		</TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/mixDescription"
+			android:textSize="18px"
+			android:maxLines="4"
+			android:text="A lengthy desccription describing the thought that went into make the mix and the mood you should be expecting from listening to it, yup yup yup yup tyhat about sums it up">
+		</TextView>
+	</LinearLayout>
+    
+</LinearLayout>
